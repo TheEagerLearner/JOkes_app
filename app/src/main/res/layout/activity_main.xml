@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#f4f9f9"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+<androidx.cardview.widget.CardView
+    android:background="#a4ebf3"
+    android:layout_marginTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="20dp"
+    app:cardCornerRadius="30dp"
+    >
+    <LinearLayout
+        android:background="#a4ebf3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/txtJoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Start!"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#1e212d"
+        android:layout_marginBottom="20dp"
+
+        />
+    <TextView
+        android:layout_marginHorizontal="5dp"
+        android:id="@+id/txtPunchline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap the Button Below!"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textColor="#1e212d"
+        android:textSize="25sp"
+        android:layout_marginBottom="40dp"
+        />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <Button
+        android:background="#a4ebf3"
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="4dp"
+        android:text="Start"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+</RelativeLayout>
